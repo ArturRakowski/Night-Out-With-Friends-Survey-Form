@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(66, 135, 245);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+  }
+  .survey-form {
+    background-color: rgba(170, 193, 214, 0.651);
+    width: 700px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .label-div {
+    display: flex;
+    padding: 20px 50px;
+  }
+  .label-div-column {
+   display: flex;
+   flex-direction: column;
+   padding: 20px 50px;
+ }
+  .label-1 {
+    display: inline-block;
+    width: 290px;
+    text-align: right;
+    padding-right: 10px;
+  }
+  .label-2 {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  .input-1 {
+    display: inline-block;
+    width: 270px;
+    text-align: center;
+  }
+  .input-2 {
+    display: inline-block;
+    width: 20px;
+  }
+  .text-1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .justify-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 170px;
+  }
+  .dropdown-1 {
+    text-align: center;
+  }
+  .dropdown-2 {
+    margin-left: 350px;
+ }
+ .center-1 {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+ }
+
+
+
+
+
+
+

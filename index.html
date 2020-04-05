@@ -1,0 +1,227 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css.css" type="text/css">
+</head>
+<body class="body">
+    <header class="header">
+        <h1 id="title">Night Out With Friends Survey Form</h1>
+        <p id="description">application for a night out with the boys</p>
+    </header>
+
+    <form action="" id="survey-form" class="survey-form">
+        <div class="label-div">
+            <div>
+                <label for="name" id="name-label" class="label-1">Name of Boyfriend/Fiance/Husband</label>
+            </div>
+            <div>
+                <input type="text" name="name" id="name" class="input-1" placeholder="Enter your name" required>
+            </div>
+        </div>
+
+        <div class="label-div">
+            <div>
+                <label for="email-label" id="email-label" class="label-1">Enter your email</label>
+            </div>
+            <div>
+                <input type="email" name="email" id="email" class="input-1" placeholder="Enter your email" required>
+            </div>
+        </div>
+
+        <div class="">
+            <p class="">Request permission for a leave of absence from the highest authority in my life for the following period</p>
+        </div>
+
+        <div class="label-div">
+            <div>
+                <label for="meeting-time" class="label-1">Choose a time for your appointment with friends</label>
+            </div>
+            <div>
+                <input class="input-1" type="datetime-local" id="meeting-time" name="meeting-time" value="2020-01-01T00:00" min="2020-01-01T00:00" max="2099-12-31T23:59">
+            </div>
+        </div>
+
+        <div class="label-div">
+            <div>
+                <label for="return-time" class="label-1">Time of return NOT to exceed</label>
+            </div>
+            <div>
+                <input class="input-1" type="datetime-local" id="return-time" name="return-time" value="2020-01-01T00:00" min="2020-01-01T00:00" max="2099-12-31T2359">
+            </div>
+        </div>
+
+        <div class="">
+            <p>Should permission be granted, I do solemnly swear to only visit the locations stated below, at the stated times. I agree to refrain from hitting on or flirting with other women. I shall not eve speak to other female, except as expressly permitted in writing below. I will not turn off my mobile, nor shall I consume above the allowed volume of alcohol without first phoning for a taxi and calling for a verbal waiver of said alcohol allowance. I understand that even if permission is granted to go out, my girlfriend/fiance/wife retainsthe right to be pissed off with me the following week for no valid reason whatsoever.</p>
+        </div>
+        <div>
+            <p class="text-1">Amount of alcohol allowed (units)</p>
+        </div>
+
+        <div class="label-div">
+            <div>
+                <label class="label-1" for="number-label" id="number-label" >Beer</label>
+            </div>
+            <div>
+                <input class="input-1" type="number" name="number" id="number" placeholder="Enter units" min="0" max="10" required>
+            </div>
+        </div>
+
+        <div class="label-div">
+            <div>
+                <label class="label-1" for="amount-of-wine"">Wine</label>
+            </div>
+            <div>
+                <input class="input-1" type="number" name="number" id="amount-of-wine" placeholder="Enter units" min="0" max="10" required>
+            </div>
+        </div>
+        <div class="label-div">
+            <div>
+                <label class="label-1" for="amount-of-wine"">Liquor</label>
+            </div>
+            <div>
+                <input class="input-1" type="number" name="number" id="amount-of-liquor" placeholder="Enter units" min="0" max="10" required>
+            </div>
+        </div>
+
+        <div>
+            <p class="text-1">Locations to be visited</p>
+        </div>
+
+        <div>
+            <div class="label-div">
+                <div>
+                    <label class="label-1" for="Location-1">Location nr 1</label>
+                </div>
+                <div>
+                    <input class="input-1" type="text" name="Location-1" id="location-1" placeholder="Enter location">
+                </div>
+            </div>
+            <div class="label-div">
+                <div>
+                    <label class="label-1" for="Location-2">Location nr 2</label>
+                </div>
+                <div>
+                    <input class="input-1" type="text" name="Location-2" id="location-2" placeholder="Enter location">
+                </div>
+            </div>
+            <div class="label-div">
+                <div>
+                    <label class="label-1" for="Location-3">Location nr 3</label>
+                </div>
+                <div>
+                    <input class="input-1" type="text" name="Location-3" id="location-3" placeholder="Enter location">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p class="text-1">Female with whom conversation is permitted</p>
+        </div>
+
+        <div class="justify-1">
+            <div class="label-div">
+                <div>
+                    <input type="radio" name="allowed" value="sister" class="input-radio input-2">
+                </div>
+                <div>
+                    <label class="label-2" for="female-1">Sister</label>
+                </div>
+            </div>
+            <div class="label-div">
+                <div>
+                    <input type="radio" name="allowed" value="mother" class="input-radio input-2">
+                </div>
+                <div>
+                    <label class="label-2" for="female-2">Mother</label class="label-2">
+                </div>
+            </div>
+            <div class="label-div">
+                <div>
+                    <input type="radio" name="allowed" value="grandmother" class="input-radio input-2">
+                </div>
+                <div>
+                    <label class="label-2" for="female-3">Grandmother</label class="label-2">
+                </div>
+            </div>
+            <div class="label-div">
+                <div>
+                    <input type="radio" name="allowed" value="great-grandmother" class="input-radio input-2">
+                </div>
+                <div>
+                    <label class="label-2" for="female-4">Great Grandmother</label class="label-2">
+                </div>
+            </div>
+            <div class="label-div">
+                <div>
+                    <input type="radio" name="allowed" value="great-great-grandmother" class="input-radio input-2">
+                </div>
+                <div>
+                    <label class="label-2" for="female-5">Great Great Grandmother</label class="label-2">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="dropdown-1">
+                <p>Who wears trousers in our relationship?</p>
+            </div>
+            <div class="dropdown-2">
+                <select name="trousers" id="dropdown" required>
+                    <option disabled selected value>trousers are worn by</option>
+                    <option value="mygirlfriend">My girlfriend</option>
+                    <option value="myfiance">My fiance</option>
+                    <option value="mywife">My wife</option>
+                    <option value="notme">Not me</option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <p class="text-1">I agree and understand that</p>
+        </div>
+        <div class="justify-1">
+            <div  class="label-div">
+                <div>
+                    <input type="checkbox" name="allowed" value="chocolatesandflowers" class="input-checkbox input-2">
+                </div>
+                <div>
+                    <label for="chocolatesandflowers" class="label-2">this is going to cost me a fortune in chocolates and flowers</label>
+                </div>
+            </div>
+            <div class="label-div">
+                <div>
+                    <input type="checkbox" name="allowed" value="creditcards" class="input-checkbox input-2">
+                </div>
+                <div>
+                    <label for="creditcards" class="label-2">You reserve right to obtain and use my credit cards</label>
+                </div>
+            </div>
+            <div class="label-div">
+                <div>
+                    <input type="checkbox" name="allowed" value="shoppingspree" class="input-checkbox input-2">
+                </div>
+                <div>
+                    <label for="shoppingspree" class="label-2">I hereby promise to take you on an unlimited shopping spree</label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="text-1">Additional comments area</p>
+        </div>
+
+        <div class="center-1">
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter additional comments here"></textarea>
+        </div>
+
+        <div class="center-1">
+            <button type="submit" id="submit" class="submit-button">
+                Submit
+            </button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,6 +1,35 @@
-body {
-    background-color: rgb(66, 135, 245);
-    font-family: Arial, Helvetica, sans-serif;
+:root {
+  --ff-primary: 'Cinzel', serif;
+  --ff-secondary: 'Alegreya SC', serif;
+
+  --fw-regular: 400;
+  --fw-bold: 900;
+
+  --clr-light: #e6e6e6;
+  --clr-dark: #1a1a1a;
+  --clr-green: #33cc33;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-body: 1rem;
+}
+
+@media (min-width:900px) {
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-body: 1.25rem;
+  }
+  
+}
+
+.body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-regular);
+    line-height: 2rem;;
   }
   .header {
     font-size: 20px;
